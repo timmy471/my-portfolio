@@ -1,0 +1,44 @@
+// Montserrat font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
+
+// Poppins font
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins&display=swap");
+
+$primary-color: #02738e;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@mixin grid($unit, $fr) {
+  display: grid;
+  grid-template-columns: repeat($unit, $fr);
+}
+
+@mixin flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin easeOut{
+  transition: all 0.5s ease-out;
+}
+
+
+html{
+  font-size: 10px;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+}
+
+@mixin large-device {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}

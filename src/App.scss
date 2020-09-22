@@ -1,0 +1,29 @@
+@import "_config";
+@import "_menu";
+
+.container {
+  width: 80%;
+  // max-width: 1170px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background: #f5f5f5;
+  // overflow: hidden;
+}
+
+header {
+  padding-top: 2rem;
+
+  .logo{
+    width: 15rem;
+    position: absolute;
+    top: 5rem;
+    transform: translateY(-50%);
+  } 
+}
