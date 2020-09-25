@@ -17,6 +17,40 @@
             
         }
     }
+
+    .bio{
+        flex-direction: row;
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: 25vh;
+            right: 0;
+            // width: 99%;
+            height: 50%;
+            border-right: 4px solid #000;
+        }
+      
+        &-pic{
+          flex: 0.5;
+      
+          // img{
+          //   height: 400px;
+          //   width: 400px;
+          //   border-radius: 50%;
+          // }
+         
+          
+        }
+      
+        &-text{
+          flex: 0.5;
+          order:-1;
+         
+        }
+
+      }
     // .menu-btn{
     //     display: none;
     // }
