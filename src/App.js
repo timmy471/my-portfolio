@@ -5,6 +5,7 @@ import "./App.scss";
 import Bio from "./components/Bio";
 import Project from "./components/Project";
 import Works from "./components/Works";
+import Testimonal from "./components/Testimonal";
 
 function App() {
 	return (
@@ -13,6 +14,7 @@ function App() {
 			<Bio />
 			<Project />
 			<Works />
+      <Testimonal />
 		</div>
 	);
 }

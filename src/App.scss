@@ -267,7 +267,7 @@ section.work-process {
     position: absolute;
     top: 127px;
     left: 200px;
-    width: 600px; 
+    width: 690px; 
     // 1116px;
     height: 1px;
     background: #707070;
@@ -323,7 +323,118 @@ section.work-process {
   }
 }
 
+#testimonal {
+  color: #445454;
+  font-size: 3rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 518px;
 
+  &-top{
+  
+    margin-top: 400px;
+    &-circle-left{
+      display: inline-block;
+      width: 99px;
+      height: 99px;
+      border-radius: 50%;
+      background: #68E0FF;
+      opacity: 0.12;
+      
+    }
+
+    &-circle-right{
+      display: inline-block;
+      height: 209px;
+      width: 209px;
+      border-radius: 50%;
+      background: #FFCD68;
+      opacity: 0.19;
+    }
+  }
+
+
+  p {
+    position: relative;
+    width: 70%;
+    height: 29rem;
+    background: #ffffff;
+    margin: 0 auto;
+    padding: 13rem 10rem 1rem 10rem;
+
+  }
+
+  img {
+    position: absolute;
+    top: -120px;
+    left: -120px;
+    // top: -120px;
+    // left: -60px;
+    height: 240px;
+    width: 240px;
+    padding: 40px;
+    border-radius: 50%;
+    border: 3px solid #02738e;
+  }
+
+  i.quote {
+    position: absolute;
+    right: 230px;
+    top: 100px;
+    translate: rotate(80deg);
+  }
+
+  #navigate-circle {
+    position: absolute;
+    bottom: 0;
+    left: 17rem;
+    // top: 150px;
+    // left: 100px;
+    height: 50px;
+    width: 50px;
+    background: #7768ff;
+    border-radius: 50%;
+    opacity: 0.19;
+  }
+
+  #testimonal-bottom {
+    display: flex;
+    align-items: center;
+
+    min-width: 778px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 5rem;
+
+
+    .angle-left {
+      margin-right: 20rem;
+      font-size: 50px;
+    }
+    .angle-right {
+      margin-left: 20rem;
+      font-size: 50px;
+    }
+
+    span.circle {
+      justify-self: space-around;
+      height: 19px;
+      width: 19px;
+      border-radius: 50%;
+      background: #02738e;
+    }
+    span.two {
+      background: #02738e;
+      opacity: 0.22;
+      margin: 0 31px;
+    }
+    span.three {
+      background: #02738e;
+      opacity: 0.22;
+    }
+  }
+}
 
 
 
