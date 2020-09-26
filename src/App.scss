@@ -145,13 +145,115 @@ header {
       // @include easeOut;
     
       &:hover {
-        background: red;
-        // background: lighten($primary-color, 5);
-        // cursor: pointer;
+        // background: red;
+        background: lighten($primary-color, 5);
+        cursor: pointer;
       }
     }
   }
 }
+
+
+#projects{
+  padding-top: 5rem;
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    // margin-bottom: 4rem;
+  }
+
+  span.box {
+    display: inline-block;
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+    background: #ffb60a;
+    margin-left: 10px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -0.75rem;
+      left: 0.75rem;
+      display: inline-block;
+      height: 1.5rem;
+      width: 1.5rem;
+      background: #02738e;
+    }
+  }
+
+  #project-pics{
+    padding-top: 5rem;
+  }
+
+   .see {
+    display: flex;
+    justify-content: end;
+    margin-top: 96px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+
+    a {
+      color: #000000;
+      margin-right: 10px;
+    }
+  }
+}
+
+
+.projects{
+  padding-top: 5rem;
+  h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    // margin-bottom: 4rem;
+  }
+
+  span.box {
+    display: inline-block;
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+    background: #ffb60a;
+    margin-left: 10px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: -0.75rem;
+      left: 0.75rem;
+      display: inline-block;
+      height: 1.5rem;
+      width: 1.5rem;
+      background: #02738e;
+    }
+  }
+
+  .project-pics{
+    padding-top: 5rem;
+    display: grid;
+    gap: 2rem;
+  }
+
+   .see {
+    // display: flex;
+    // justify-content: end;
+    margin-top: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.7rem;
+    font-weight: 800;
+    width: fit-content;
+    margin-left: auto;
+
+    a {
+      color: #000000;
+      margin-right: 10px;
+    }
+  }
+}
+
+
 
 
 @import 'desktop';

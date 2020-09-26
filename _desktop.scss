@@ -51,6 +51,13 @@
         }
 
       }
+
+      .projects{
+
+          .project-pics{
+            grid-template-columns: repeat(4, 1fr);
+          }
+      }
     // .menu-btn{
     //     display: none;
     // }
