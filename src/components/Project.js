@@ -19,7 +19,7 @@ const Project = () => {
                 <img src={require("../img/ddd.png")} alt="" />
             </div>
             <div className="see">
-                <a href="#">See More</a>
+                {/* <a href="#">See More</a> */}
             </div>
         </section>
 		);
