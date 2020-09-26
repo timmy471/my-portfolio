@@ -20,7 +20,7 @@ const Bio = () => {
                         find out.
                     </p>
                     <div class="social-links">
-                        <a href="#">
+                        {/* <a href="#">
                             <GitHub/>
                         </a>
                         <a href="#">
@@ -32,7 +32,7 @@ const Bio = () => {
                     </div>
                     <a href="#" class="hire-btn">
                         Hire Me
-                    </a>
+                    </a> */}
                 </div>
             </section>
 
