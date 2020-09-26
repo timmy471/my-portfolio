@@ -1,4 +1,4 @@
-// import { GitHub, Instagram, Twitter } from '@material-ui/icons';
+import { GitHub, Instagram, Twitter } from '@material-ui/icons';
 import React from 'react';
 
 const Bio = () => {
@@ -16,23 +16,23 @@ const Bio = () => {
                     <p>
                         Designing and telling peoples stories, through web design has been
                         my thing for the past one year. I give my very all to each
-                        project. Don't take my word for it, click the button below to
+                        project. Don't take my word for it, click the button bellow to
                         find out.
                     </p>
                     <div class="social-links">
-                        {/* <a href="#">
+                        <a href="/#">
                             <GitHub/>
                         </a>
-                        <a href="#">
+                        <a href="/#">
                             <Instagram/>
                         </a>
-                        <a href="#">
+                        <a href="/#">
                             <Twitter/>
-                        </a> */}
+                        </a>
                     </div>
-                    {/* <a href="#" class="hire-btn">
+                    <a href="/#" class="hire-btn">
                         Hire Me
-                    </a> */}
+                    </a>
                 </div>
             </section>
 

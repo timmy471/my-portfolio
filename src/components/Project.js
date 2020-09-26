@@ -16,10 +16,10 @@ const Project = () => {
                 <img src={require("../img/ddd.png")} alt="" />
                 <img src={require("../img/Ad.png")} alt="" />
                 <img src={require("../img/img11.png")} alt="" />
-                <img src={require("../img/ddd.png")} alt="" />
+                <img src={require("../img/ad2.png")} alt="" />
             </div>
             <div className="see">
-                {/* <a href="#">See More</a> */}
+                <a href="/#">See More</a>
             </div>
         </section>
 		);
