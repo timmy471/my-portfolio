@@ -1,4 +1,4 @@
-import { GitHub, Instagram, Twitter } from '@material-ui/icons';
+// import { GitHub, Instagram, Twitter } from '@material-ui/icons';
 import React from 'react';
 
 const Bio = () => {
@@ -28,9 +28,9 @@ const Bio = () => {
                         </a>
                         <a href="#">
                             <Twitter/>
-                        </a>
+                        </a> */}
                     </div>
-                    <a href="#" class="hire-btn">
+                    {/* <a href="#" class="hire-btn">
                         Hire Me
                     </a> */}
                 </div>
