@@ -6,6 +6,7 @@ import Bio from "./components/Bio";
 import Project from "./components/Project";
 import Works from "./components/Works";
 import Testimonal from "./components/Testimonal";
+import Contact from "./components/Contact";
 
 function App() {
 	return (
@@ -15,6 +16,7 @@ function App() {
 			<Project />
 			<Works />
       <Testimonal />
+      <Contact/>
 		</div>
 	);
 }
