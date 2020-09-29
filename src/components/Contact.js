@@ -14,7 +14,7 @@ export default function Contact() {
 						<Phone /> +234 703 806 8811
 					</div>
 					<div>
-						<LocationOn /> 192 M.M way, Benin City, Edo State.
+						<LocationOn /> Carlton Gate Estate, Chevron Office Drive, Lekki, Lagos
 					</div>
 				</div>
 			</div>
@@ -31,7 +31,7 @@ export default function Contact() {
 							placeholder="Message"
 						></textarea>
 						<button type="submit">
-							SEND MESSAGE <ArrowForward/>
+							<span>SEND MESSAGE</span>  <ArrowForward/>
 						</button>
 					</form>
 				</div>

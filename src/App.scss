@@ -1,6 +1,17 @@
 @import "_config";
 @import "_menu";
 
+::placeholder{
+  color: #fff;
+}
+
+:-ms-input-placeholder{
+  color: #fff;
+}
+
+::-ms-input-placeholder{
+  color: #fff;
+}
 .container {
   width: 80%;
   // max-width: 1170px;
@@ -442,8 +453,7 @@ section.work-process {
     "details message";
   grid-template-columns: repeat(2, 1fr);
   margin-top: 10rem;
-  margin-bottom: 200rem;
-  // border: 1px solid red;
+  margin-bottom: 20rem;
 
   h1 {
     justify-self: center;
@@ -486,89 +496,37 @@ section.work-process {
         color: #fff;
         outline: none;
       }
+
+      button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        span{
+          margin-right: 1rem;
+        }
+
+       
+      }
     }
-
-    // input, button{
-    //   width: 100%;
-    //   border-radius: 15px;
-    //   border: 2px solid #fff;
-    //   outline: none;
-    //   padding: 15px;
-    //   margin-bottom: 25px;
-    //   display: inline-block;
-    // }
-
-    // input,
-    // button {
-    //   width: 100%;
-    //   display: inline-block;
-    //   background: #026e8a;
-    //   border: 2px solid #ffffff;
-    //   border-radius: 15px;
-    //   margin: 1rem 0;
-    //   color: #fff;
-    //   font-size: 2rem;
-    //   padding: 31px 76px 31px 76px;
-    // }
-    // button {
-    //   outline: none;
-    //   transition: all 0.5s ease-in-out;
-    //   margin: 20px 0 100px 0;
-    //   &:hover {
-    //     background: lighten($primary-color, 2);
-    //   }
-    // }
-
-    // textarea {
-      // background: #026e8a;
-    //   border: 2px solid #ffffff;
-    //   border-radius: 15px;
-    //   width: 100%;
-    //   color: #fff;
-    //   font-size: 25px;
-    //   padding: 31px 76px 31px 76px;
-    // }
 
   }
 
   .contact-container {
     width: 80%;
-    // height: 70%;
     margin: 12rem auto;
-    // display: grid;
-    // place-items: center;
-    // margin: 0 auto;
+
   }
 
-  // .message-container{
-  //   display: grid;
-  //   place-items: center;
-  //   border: 1px solid red;
-  //   // display: flex;
-  //   // align-items: center;
-  //   // justify-content: center;
-  // }
+  
+}
 
-  // form{
-  //   width: 70%;
-  //   height: 70%;
-  //   border: 1px solid white;
-  // }
-
-  // .contact{
-  //   display: flex;
-  //   flex-direction: column;
-  //   align-items: center;
-  //   justify-items: center;
-  //   height: 100%;
-  //   width: 100%;
-  // }
-
-  // img {
-  //   width: 35px;
-  //   height: 25px;
-  //   margin-right: 2rem;
-  // }
+footer{
+  color: $primary-color;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 2.5rem;
 }
 
 @import 'desktop';
