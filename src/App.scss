@@ -71,7 +71,7 @@ header {
   // border: 2px solid black;
 
   &-pic{
-    flex: 0.5;
+    // flex: 0.9;
 
     // img{
     //   height: 400px;
@@ -83,7 +83,8 @@ header {
   }
 
   &-text{
-    flex: 0.5;
+    // flex: 0.5;
+    margin-top: 10rem;
     order: 1;
     h1{
       text-align: left;
