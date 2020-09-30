@@ -7,12 +7,16 @@
         }
         nav{
             display: block;
-            flex: 0.4;
+            flex: 0.53;
             ul{
                 display: flex;
                 flex-direction: row;
                 justify-content: space-between;
                 list-style: none;
+
+                // li{
+                //   padding-left: 4rem;
+                // }
             }
             
         }
@@ -22,10 +26,12 @@
         flex-direction: row;
         position: relative;
 
+
         &::after {
             content: "";
             position: absolute;
-            bottom: 25vh;
+            // bottom: 25vh;
+            top: 10vh;
             right: 0;
             // width: 99%;
             height: 50%;
