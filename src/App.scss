@@ -43,9 +43,9 @@ header {
   align-items: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-
   
-
+  
+  
   .logo{
     width: 17rem;
     // flex: 0.6;
@@ -69,19 +69,8 @@ header {
   flex-direction: column;
   align-items: center;
   // border: 2px solid black;
-
-  &-pic{
-    // flex: 0.9;
-
-    // img{
-    //   height: 400px;
-    //   width: 400px;
-    //   border-radius: 50%;
-    // }
-   
-    
-  }
-
+  
+  
   &-text{
     // flex: 0.5;
     margin-top: 10rem;
@@ -94,45 +83,45 @@ header {
       letter-spacing: 0px;
       color: #02738E;
       padding-bottom: 1rem;
-  
+      
       span{
         display: block;
         padding-bottom: 1rem;
       }
     }
-  
+    
     h2{
       font-family: 'Montserrat', sans-serif;
       font-size: 2rem;
       font-weight: bold;
       padding-bottom: 0.5rem;
     }
-  
+    
     p{
       font-family: 'Poppins', sans-serif;
       font-size: 1.5rem;
       line-height: 1.9;
       padding: 1rem 0;
     }
-  
+    
     .social-links{
       display: flex;
       justify-content: space-between;
       margin-top: 2.8rem;
       width: 20rem;
-
+      
       .MuiSvgIcon-root{
         font-size: 3rem;
         color: $primary-color;
       }
-  
+      
       a {
         // display: inline-block;
         // border: 1px solid $primary-color;
         // border-radius: 50%;
         // padding: 10px;
         // background: #ffffff;
-  
+        
         img {
           display: inline-block;
           height: 1.5rem;
@@ -140,7 +129,7 @@ header {
         }
       }
     }
-  
+    
     a.hire-btn {
       display: inline-block;
       background: $primary-color;
@@ -157,7 +146,7 @@ header {
       margin-right: -2px;
       
       // @include easeOut;
-    
+      
       &:hover {
         // background: red;
         background: lighten($primary-color, 5);
@@ -175,7 +164,7 @@ header {
     font-size: 2rem;
     // margin-bottom: 4rem;
   }
-
+  
   span.box {
     display: inline-block;
     position: relative;
@@ -183,7 +172,7 @@ header {
     width: 1.5rem;
     background: #ffb60a;
     margin-left: 10px;
-
+    
     &::after {
       content: "";
       position: absolute;
@@ -195,19 +184,19 @@ header {
       background: #02738e;
     }
   }
-
+  
   #project-pics{
     padding-top: 5rem;
   }
-
-   .see {
+  
+  .see {
     display: flex;
     justify-content: end;
     margin-top: 96px;
     font-family: "Montserrat", sans-serif;
     font-size: 1.7rem;
     font-weight: 800;
-
+    
     a {
       color: #000000;
       margin-right: 10px;
@@ -223,7 +212,7 @@ header {
     font-size: 2rem;
     // margin-bottom: 4rem;
   }
-
+  
   span.box {
     display: inline-block;
     position: relative;
@@ -231,7 +220,7 @@ header {
     width: 1.5rem;
     background: #ffb60a;
     margin-left: 10px;
-
+    
     &::after {
       content: "";
       position: absolute;
@@ -243,14 +232,14 @@ header {
       background: #02738e;
     }
   }
-
+  
   .project-pics{
     padding-top: 5rem;
     display: grid;
     gap: 2rem;
   }
-
-   .see {
+  
+  .see {
     // display: flex;
     // justify-content: end;
     margin-top: 4rem;
@@ -259,7 +248,7 @@ header {
     font-weight: 800;
     width: fit-content;
     margin-left: auto;
-
+    
     a {
       color: #000000;
       margin-right: 10px;
@@ -268,74 +257,7 @@ header {
 }
 
 section.work-process {
-  display: grid;
-  grid-template-areas:
-    "heading-1 heading-1 heading-1"
-    "work-1 work-2 work-3";
-  column-gap: 4rem;
-  position: relative;
-  margin-top: 10rem;
-  
-
-  .line {
-    position: absolute;
-    top: 135px;
-    left: 200px;
-    width: 50vw;
-    // width: 690px; 
-    // 1116px;
-    height: 1px;
-    background: #707070;
-    z-index: -111;
-  }
-
-  h1 {
-    grid-area: heading-1;
-    justify-self: center;
-    font-size: 3rem;
-  }
-  .work-process-1 {
-    grid-area: work-1;
-  }
-  .work-process-2 {
-    grid-area: work-2;
-  }
-  .work-process-3 {
-    grid-area: work-3;
-  }
-  h3,
-  p {
-    text-align: center;
-    color: #445454;
-  }
-  h3 {
-    margin-bottom: 1rem;
-    font-size: 1.9rem;
-    letter-spacing: 1px;
-  }
-  p {
-    line-height: 1.4;
-    font-size: 1.4rem;
-  }
-
-  .work-circle {
-    background: darken(#fff, 8);
-    height: 110px;
-    width: 110px;
-    border-radius: 50%;
-    @include flex;
-    margin: 47px auto 31px auto;
-
-    p {
-      background: $primary-color;
-      height: 50px;
-      width: 50px;
-      font-size: 2rem;
-      border-radius: 50%;
-      color: #fff;
-      @include flex;
-    }
-  }
+  display: none;
 }
 
 #testimonal {
@@ -344,10 +266,10 @@ section.work-process {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   position: relative;
-
-
-  &-top{
   
+  
+  &-top{
+    
     margin-top: 400px;
     &-circle-left{
       display: inline-block;
@@ -358,7 +280,7 @@ section.work-process {
       opacity: 0.12;
       
     }
-
+    
     &-circle-right{
       display: inline-block;
       height: 209px;
@@ -368,8 +290,8 @@ section.work-process {
       opacity: 0.19;
     }
   }
-
-
+  
+  
   p {
     position: relative;
     width: 60vw;
@@ -377,9 +299,9 @@ section.work-process {
     background: #ffffff;
     margin: 0 auto;
     padding: 9rem 10rem 0 10rem;
-
+    
   }
-
+  
   img {
     position: absolute;
     top: -100px;
@@ -392,14 +314,14 @@ section.work-process {
     border-radius: 50%;
     border: 3px solid #02738e;
   }
-
+  
   i.quote {
     position: absolute;
     right: 230px;
     top: 100px;
     translate: rotate(80deg);
   }
-
+  
   #navigate-circle {
     position: absolute;
     bottom: 0;
@@ -412,7 +334,7 @@ section.work-process {
     border-radius: 50%;
     opacity: 0.19;
   }
-
+  
   #testimonal-bottom {
     display: flex;
     align-items: center;
@@ -420,8 +342,8 @@ section.work-process {
     margin: 0 auto;
     justify-content: center;
     margin-top: 5rem;
-
-
+    
+    
     .angle-left {
       margin-right: 20rem;
       font-size: 50px;
@@ -430,7 +352,7 @@ section.work-process {
       margin-left: 20rem;
       font-size: 50px;
     }
-
+    
     span.circle {
       justify-self: space-around;
       height: 19px;
@@ -450,45 +372,45 @@ section.work-process {
   }
 }
 
-#contact {
-  display: grid;
-  grid-template-areas:
-    "contact contact"
-    "details message";
-  grid-template-columns: repeat(2, 1fr);
+// Contact section
+#contact{
   margin-top: 10rem;
-  margin-bottom: 20rem;
-
-  h1 {
-    justify-self: center;
-    grid-area: contact;
-    margin-bottom: 8rem;
+  margin-bottom: 5rem;
+  
+  h1{
+    text-align: center;
     color: #464e4e;
     font-size: 3rem;
+    margin-bottom: 4rem;
   }
-  &-details {
-    grid-area: details;
-    min-height: 30vh;
+  
+  &-details{
+    background: #ffffff;
+    font-family: "Montserrat", sans-serif;
     color: #848484;
     font-size: 1.5rem;
-    font-family: "Montserrat", sans-serif;
-    background: #ffffff;
-
-    #phone-contact {
-      margin: 5rem 0;
+    min-height: 30vh;
+    margin-bottom: 5rem;
+  }
+  
+  .contact-container{
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+    padding: 5rem 0;
+    
+    & > div{
+      padding: 1.5rem 1rem;
     }
   }
-  &-message {
-    grid-area: message;
+  
+  &-message{
     background: #026e8a;
     min-height: 30vh;
-
+    
     .message-container{
-      // border: 1px solid yellow;
-      margin: 5rem auto;
-      width: 70%;
-      color: #fff;
-
+      padding: 3rem 1rem;
+      
       input,button,textarea{
         width: 100%;
         background: $primary-color;
@@ -499,37 +421,27 @@ section.work-process {
         margin-bottom: 2rem;
         color: #fff;
         outline: none;
-      }
-
-      button{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        cursor: pointer;
-
-        span{
-          margin-right: 1rem;
+        
+        button{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          
+          span{
+            margin-right: 1rem;
+          }
         }
-
-       
       }
     }
-
   }
-
-  .contact-container {
-    width: 80%;
-    margin: 12rem auto;
-
-  }
-
-  
 }
+
 
 footer{
   color: $primary-color;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   padding: 2.5rem;
 }
 
