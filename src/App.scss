@@ -23,6 +23,11 @@ html {
   overflow: hidden;
 }
 
+.hidden{
+  visibility: hidden;
+  height: 0;
+}
+
 img {
   width: 100%;
 }
