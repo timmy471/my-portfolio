@@ -2,7 +2,7 @@ import React from 'react';
 
 const Works = () => {
     return (
-        <section className="work-process">
+        <section className="work-process" >
         <div className="line"></div>
         <h1>Work Process</h1>
         <div className="work-process-1">

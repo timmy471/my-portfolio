@@ -1,5 +1,8 @@
-import { GitHub, Instagram, Twitter } from '@material-ui/icons';
 import React from 'react';
+import { Link } from 'react-scroll';
+
+import { GitHub, Instagram, Twitter } from '@material-ui/icons';
+
 
 const Bio = () => {
     return (
@@ -23,16 +26,23 @@ const Bio = () => {
                         <a href="https://github.com/coolpythoncodes" target='blank'>
                             <GitHub/>
                         </a>
-                        <a href="https://instagram.com/coolpythoncodes">
+                        <a href="https://instagram.com/coolpythoncodes" target='blank'>
                             <Instagram/>
                         </a>
-                        <a href="https://twitter.com/coolpythoncodes">
+                        <a href="https://twitter.com/coolpythoncodes" target='blank'>
                             <Twitter/>
                         </a>
                     </div>
-                    <a href="/#" class="hire-btn">
+                    <Link
+                        to='contact'
+                        spy='true'
+                        activeClass='active'
+                        smooth={true}
+                        duration={100}
+                        className='hire-btn'
+                    >
                         Hire Me
-                    </a>
+                    </Link>
                 </div>
             </section>
 

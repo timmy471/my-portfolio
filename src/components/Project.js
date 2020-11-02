@@ -1,8 +1,9 @@
 import React from 'react';
 
+
 const Project = () => {
     return (
-        <section className="projects">
+        <section className="projects" id='works'>
             <h1>
                 Completed Projects <span class="box"></span>
             </h1>
@@ -19,7 +20,7 @@ const Project = () => {
                 <img src={require("../img/Ad.png")} alt="" />
             </div>
             <div className="see">
-                <a href="/#">See More</a>
+                <a href='https://github.com/coolpythoncodes' target='blank' >See More</a>
             </div>
         </section>
 		);
