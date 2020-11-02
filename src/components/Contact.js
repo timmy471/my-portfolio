@@ -29,9 +29,6 @@ export default function Contact() {
 					<form
 						name="contact"
 						method="POST"
-						netlify-honeypot="bot-field"
-						data-netlify="true"
-						netlify
 					>
 						<p class="hidden">
 							<label>
