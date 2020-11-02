@@ -1,6 +1,10 @@
 @import "_config";
 @import "_menu";
 
+html {
+  scroll-behavior: smooth;
+}
+
 ::placeholder{
   color: #fff;
 }
