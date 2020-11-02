@@ -35,15 +35,16 @@ export default function Contact() {
 								Don’t fill this out if you're human: <input name="bot-field" />
 							</label>
 						</p>
-						<input type="hidden" name="form-name" value="contact" />
-						<input type="text" name="" id="" placeholder="Full Name" />
-						<input type="email" name="" id="" placeholder="Email" />
+						<input type="hidden" name="form-name" value="contact" required />
+						<input type="text" name="full-name" id="" placeholder="Full Name" required />
+						<input type="email" name="email" id="" placeholder="Email" required />
 						<textarea
-							name=""
+							name="message"
 							id=""
 							cols="30"
 							rows="4"
 							placeholder="Message"
+							required
 						></textarea>
 						<button type="submit">
 							<span>SEND MESSAGE</span> <ArrowForward />
