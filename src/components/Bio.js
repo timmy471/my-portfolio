@@ -20,13 +20,13 @@ const Bio = () => {
                         find out.
                     </p>
                     <div class="social-links">
-                        <a href="/#">
+                        <a href="https://github.com/coolpythoncodes" target='blank'>
                             <GitHub/>
                         </a>
-                        <a href="/#">
+                        <a href="https://instagram.com/coolpythoncodes">
                             <Instagram/>
                         </a>
-                        <a href="/#">
+                        <a href="https://twitter.com/coolpythoncodes">
                             <Twitter/>
                         </a>
                     </div>
