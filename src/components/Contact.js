@@ -31,6 +31,7 @@ export default function Contact() {
 						method="POST"
 						netlify-honeypot="bot-field"
 						data-netlify="true"
+						netlify
 					>
 						<p class="hidden">
 							<label>
