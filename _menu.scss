@@ -67,7 +67,7 @@ background: $primary-color;
         background: rgba(2, 114, 142, .2);
         // opacity: 0;
         // transform: scale();
-        @include easeOut
+        @include easeOut;
     }
     
 

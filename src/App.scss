@@ -1,5 +1,5 @@
-@import "_config";
-@import "_menu";
+@import "config";
+@import "menu";
 
 html {
   scroll-behavior: smooth;
@@ -64,12 +64,12 @@ header {
     // transform: translateY(-50%);
   } 
   
-  .nav{
-    // display: none;
-    // flex: 0.8;
-    // justify-self: end;s
+  // .nav{
+  //   display: none;
+  //   flex: 0.8;
+  //   justify-self: end;
     
-  }
+  // }
 }
 
 .bio{
