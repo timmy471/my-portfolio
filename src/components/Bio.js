@@ -19,7 +19,7 @@ const Bio = () => {
                     <p>
                         Designing and telling peoples stories, through web design has been
                         my thing for the past one year. I give my very all to each
-                        project. Don't take my word for it, click the button bellow to
+                        project. Don't take my word for it, click the button below to
                         find out.
                     </p>
                     <div class="social-links">

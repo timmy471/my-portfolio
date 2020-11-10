@@ -156,6 +156,7 @@
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         position: relative;
+        padding-top: 0;
         
         
         &-top{
@@ -189,7 +190,13 @@
           background: #ffffff;
           margin: 0 auto;
           padding: 9rem 10rem 0 10rem;
+          font-size: 2.4rem;
           
+          small{
+            display: block;
+            padding-top: 3rem;
+            font-size: 1.5rem;
+          }
         }
         
         img {
@@ -249,6 +256,7 @@
             width: 19px;
             border-radius: 50%;
             background: #02738e;
+            opacity: 0.22;
           }
           span.two {
             background: #02738e;
@@ -258,6 +266,10 @@
           span.three {
             background: #02738e;
             opacity: 0.22;
+          }
+
+          span.indicate{
+            opacity: 1;
           }
         }
       }

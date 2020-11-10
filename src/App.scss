@@ -272,7 +272,201 @@ section.work-process {
 
 // Testimonial section
 #testimonal{
-  display: none;
+  padding-top: 10rem;
+
+  p{
+    
+    position: relative;
+    width: 80%;
+    // width: 60vw;
+    // min-height: 27rem;
+    background: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    // margin: 0 auto;
+    margin: 0 auto;
+    padding: 5.3rem 1rem 3rem 1rem;
+
+    small{
+      padding-top: 1rem;
+      display:block;
+    }
+  }
+
+  img{
+    position: absolute;
+    top: -50px;
+    left: -20px;
+    height: 90px;
+    width: 90px;
+    padding: 5px;
+    border-radius: 50%;
+    border: 3px solid #02738e;
+  }
+
+  #testimonal-bottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 2.5rem;
+    
+    
+    .angle-left {
+      margin-right: 2rem;
+      font-size: 30px;
+    }
+    .angle-right {
+      margin-left: 2rem;
+      font-size: 30px;
+    }
+    
+    span.circle {
+      justify-self: space-around;
+      height: 10px;
+      width: 10px;
+      border-radius: 50%;
+      background: #02738e;
+      opacity: 0.22;
+    }
+    span.two {
+      background: #02738e;
+      opacity: 0.22;
+      margin: 0 20px;
+    }
+    span.three {
+      background: #02738e;
+      opacity: 0.22;
+    }
+
+    span.indicate{
+      opacity: 1;
+    }
+  }
+  // display: none;
+  // display: block;
+  //       color: #445454;
+  //       font-size: 3rem;
+  //       font-family: "Montserrat", sans-serif;
+  //       font-weight: 600;
+  //       position: relative;
+        
+        
+  //       &-top{
+          
+  //         margin-top: 400px;
+  //         &-circle-left{
+  //           display: inline-block;
+  //           width: 99px;
+  //           height: 99px;
+  //           border-radius: 50%;
+  //           background: #68E0FF;
+  //           opacity: 0.12;
+            
+  //         }
+          
+  //         &-circle-right{
+  //           display: inline-block;
+  //           height: 209px;
+  //           width: 209px;
+  //           border-radius: 50%;
+  //           background: #FFCD68;
+  //           opacity: 0.19;
+  //         }
+  //       }
+        
+        
+  //       p {
+  //         position: relative;
+  //         width: 60vw;
+  //         min-height: 27rem;
+  //         background: #ffffff;
+  //         margin: 0 auto;
+  //         padding: 9rem 10rem 0 10rem;
+  //         font-size: 2.4rem;
+          
+  //         small{
+  //           display: block;
+  //           padding-top: 3rem;
+  //           font-size: 1.5rem;
+  //         }
+  //       }
+        
+  //       img {
+  //         position: absolute;
+  //         top: -100px;
+  //         left: -100px;
+  //         // top: -120px;
+  //         // left: -60px;
+  //         height: 220px;
+  //         width: 220px;
+  //         padding: 37px;
+  //         border-radius: 50%;
+  //         border: 3px solid #02738e;
+  //       }
+        
+  //       i.quote {
+  //         position: absolute;
+  //         right: 230px;
+  //         top: 100px;
+  //         translate: rotate(80deg);
+  //       }
+        
+  //       #navigate-circle {
+  //         position: absolute;
+  //         bottom: 0;
+  //         left: 17rem;
+  //         // top: 150px;
+  //         // left: 100px;
+  //         height: 50px;
+  //         width: 50px;
+  //         background: #7768ff;
+  //         border-radius: 50%;
+  //         opacity: 0.19;
+  //       }
+        
+  //       #testimonal-bottom {
+  //         display: flex;
+  //         align-items: center;
+  //         min-width: 778px;
+  //         margin: 0 auto;
+  //         justify-content: center;
+  //         margin-top: 5rem;
+          
+          
+  //         .angle-left {
+  //           margin-right: 20rem;
+  //           font-size: 50px;
+  //         }
+  //         .angle-right {
+  //           margin-left: 20rem;
+  //           font-size: 50px;
+  //         }
+          
+  //         span.circle {
+  //           justify-self: space-around;
+  //           height: 19px;
+  //           width: 19px;
+  //           border-radius: 50%;
+  //           background: #02738e;
+  //           opacity: 0.22;
+  //         }
+  //         span.two {
+  //           background: #02738e;
+  //           opacity: 0.22;
+  //           margin: 0 31px;
+  //         }
+  //         span.three {
+  //           background: #02738e;
+  //           opacity: 0.22;
+  //         }
+
+  //         span.indicate{
+  //           opacity: 1;
+  //         }
+  //       }
 }
 
 
