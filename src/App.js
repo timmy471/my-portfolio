@@ -67,7 +67,7 @@ function App() {
 			setTimeout(() => {
 				setmenuToggle(!menuToggle);
 				setnavToggle(!navToggle);
-			}, 1200);
+			}, 1500);
 		}
 		
 	}
