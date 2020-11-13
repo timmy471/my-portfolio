@@ -16,7 +16,7 @@ const Project = () => {
                 <img src={require("../img/img11.png")} alt="" />
                 <img src={require("../img/ddd.png")} alt="" />
                 <img src={require("../img/Ad.png")} alt="" />
-                <img src={require("../img/img11.png")} alt="" />
+                {/* <img src={require("../img/img11.png")} alt="" /> */}
                 <img src={require("../img/Ad.png")} alt="" />
             </div>
             <div className="see">
