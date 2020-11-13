@@ -21,7 +21,7 @@ import FortuneImage from './img/fortune.jpg';
 
 function App() {
 
-	const [testimonial, setTestimonial] = useState([
+	const testimonial = [
 		{
 		  person: SaintMosesImage,
 		  name: 'Saintmoses Eromosele',
@@ -37,7 +37,8 @@ function App() {
 			name: 'Fortune Ikechi',
 			text: 'In our Developer Student Club, He is always available to help.'
 		}
-	]);
+	];
+
 
 		const [index, setIndex] = useState(0);
 
