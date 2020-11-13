@@ -1,16 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 
 
-const Header = () => {
+const Header = ({ handleClick, menuToggle, navToggle, hideSlideNav }) => {
 
-	const [menuToggle, setmenuToggle] = useState(false);
-	const [navToggle, setnavToggle] = useState(true);
-
-	const handleClick = ()=>{
-		setmenuToggle(!menuToggle);
-		setnavToggle(!navToggle);
-	}
 
 	return (
 
@@ -33,6 +26,7 @@ const Header = () => {
 							smooth={true}
 							duration={100}
 							className='hire-btn'
+							onClick={hideSlideNav}
 						>
 							My Works
 						</Link>
@@ -44,12 +38,13 @@ const Header = () => {
 							activeClass='active'
 							smooth={true}
 							duration={100}
+							onClick={hideSlideNav}
 						>
 							Contact Me
 						</Link>
 					</li>
 					<li className="nav-link ">
-						<a href="http://coolpythoncodes.com/" target='blank'>My blog </a>
+						<a href="http://coolpythoncodes.com/" target='blank' onClick={hideSlideNav}>My blog </a>
 					</li>
 				</ul>
 			</nav>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {
 	BrowserRouter as Router,
-  } from "react-router-dom";
+} from "react-router-dom";
 
 import Header from "./components/Header";
 
@@ -23,14 +23,14 @@ function App() {
 
 	const testimonial = [
 		{
-		  person: SaintMosesImage,
-		  name: 'Saintmoses Eromosele',
-		  text: 'Chijioke is incredible! He was one of our best interns.',
-		}, 
+			person: SaintMosesImage,
+			name: 'Saintmoses Eromosele',
+			text: 'Chijioke is incredible! He was one of our best interns.',
+		},
 		{
-		  person: SumitRajImage,
-		  name: 'Sumit Raj',
-		  text: 'Very understanding and easy to work with. Even with miles apart.'
+			person: SumitRajImage,
+			name: 'Sumit Raj',
+			text: 'Very understanding and easy to work with. Even with miles apart.'
 		},
 		{
 			person: FortuneImage,
@@ -40,24 +40,45 @@ function App() {
 	];
 
 
-		const [index, setIndex] = useState(0);
+	const [index, setIndex] = useState(0);
 
-		const slideRight = ()=>{
-		  setIndex((index + 1) % testimonial.length);
+	const slideRight = () => {
+		setIndex((index + 1) % testimonial.length);
+	}
+
+	const slideLeft = () => {
+		const nextIndex = index - 1;
+		nextIndex < 0 ? setIndex(testimonial.length - 1) : setIndex(nextIndex)
+	}
+
+	const [menuToggle, setmenuToggle] = useState(false);
+	const [navToggle, setnavToggle] = useState(true);
+
+	const handleClick = () => {
+		setmenuToggle(!menuToggle);
+		setnavToggle(!navToggle);
+	}
+
+	const mediaQuery = window.matchMedia('(max-width: 767px)');
+	let mobileView = mediaQuery.matches;
+
+	const hideSlideNav = () => {
+		if (mobileView) {
+			setTimeout(() => {
+				setmenuToggle(!menuToggle);
+				setnavToggle(!navToggle);
+			}, 1000);
 		}
-	
-		const slideLeft = ()=>{
-		  const nextIndex = index - 1;
-		  nextIndex < 0 ? setIndex(testimonial.length - 1) : setIndex(nextIndex)
-		}
+		
+	}
 	return (
 		<Router>
 			<div className="container">
-				<Header />
+				<Header hideSlideNav={hideSlideNav} handleClick={handleClick} menuToggle={menuToggle} navToggle={navToggle} />
 				<Bio />
 				<Project />
 				<Works />
-				<Testimonal testimonial={testimonial} slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex}/>
+				<Testimonal testimonial={testimonial} slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex} />
 				<Contact />
 				<Footer />
 			</div>
