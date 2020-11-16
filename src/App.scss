@@ -291,9 +291,8 @@ section.work-process {
   padding-top: 10rem;
 
   p{
-    
     position: relative;
-    width: 80%;
+    width: 100%;
     // width: 60vw;
     // min-height: 27rem;
     background: #ffffff;
@@ -313,7 +312,7 @@ section.work-process {
   img{
     position: absolute;
     top: -50px;
-    left: -20px;
+    left: 30%;
     height: 90px;
     width: 90px;
     padding: 5px;
