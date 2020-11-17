@@ -78,7 +78,7 @@ function App() {
 				<Bio />
 				<Project />
 				<Works />
-				<Testimonal testimonial={testimonial} slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex} />
+				<Testimonal name={testimonial[index].name} imgPerson={testimonial[index].person} text={testimonial[index].text} slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex} />
 				<Contact />
 				<Footer />
 			</div>

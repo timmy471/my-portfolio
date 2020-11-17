@@ -1,7 +1,7 @@
 import React from 'react';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons';
 
-const Testimonal = ({ testimonial, index, slideLeft, slideRight, setIndex }) => {
+const Testimonal = ({ imgPerson, text, name, index, slideLeft, slideRight, setIndex }) => {
 
   return (
     <section id="testimonal">
@@ -10,10 +10,10 @@ const Testimonal = ({ testimonial, index, slideLeft, slideRight, setIndex }) => 
         <span id="testimonal-top-circle-right"></span>
       </div>
       <p>
-        <img src={testimonial[index].person} alt="" /> 
+        <img src={imgPerson} alt="" /> 
         <i className="quote fas fa-quote-right fa-3"></i>
-        {testimonial[index].text}
-        <small>- {testimonial[index].name}</small>
+        {text}
+        <small>- {name}</small>
       </p>
           
       <div id="navigate-circle"></div>
