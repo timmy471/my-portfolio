@@ -17,6 +17,7 @@ import Footer from "./Footer";
 import SaintMosesImage from './img/saintmoses.jpg';
 import SumitRajImage from './img/sumitraj.jpg';
 import FortuneImage from './img/fortune.jpg';
+import Cursor from "./components/Cursor";
 
 
 function App() {
@@ -74,6 +75,7 @@ function App() {
 	return (
 		<Router>
 			<div className="container">
+				<Cursor />
 				<Header hideSlideNav={hideSlideNav} handleClick={handleClick} menuToggle={menuToggle} navToggle={navToggle} />
 				<Bio />
 				<Project />

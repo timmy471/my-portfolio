@@ -3,6 +3,29 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: none;
+}
+
+.cursor {
+  width: 10px;
+  height: 10px;
+  background: #ffb60a;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  transition: all 150ms ease;
+  transition-property: opacity;
+
+  &--hidden{
+    opacity: 0;
+  }
+
+  &--clicked{
+    // transform: translate(-50%, -50%) scale(0.9);
+    background: $primary-color;
+    
+  }
 }
 
 ::placeholder{
@@ -34,13 +57,14 @@ img {
 
 a{
   color: #000;
-  cursor: pointer;
+  cursor: none;
 }
 
 body {
   background: #f5f5f5;
   scrollbar-width: thin;
   scrollbar-color: $primary-color #CFD8DC;
+  cursor: none;
 
   &::-webkit-scrollbar {
     width: 11px;
@@ -176,7 +200,7 @@ header {
       &:hover {
         // background: red;
         background: lighten($primary-color, 5);
-        cursor: pointer;
+        // cursor: pointer;
       }
     }
   }
@@ -535,16 +559,18 @@ section.work-process {
         margin-bottom: 2rem;
         color: #fff;
         outline: none;
+        cursor: none;
         
         button{
           display: flex;
           align-items: center;
           justify-content: center;
-          cursor: pointer;
-          
+          cursor: none;   
+
           span{
             margin-right: 1rem;
-          }
+          } 
+
         }
       }
     }
