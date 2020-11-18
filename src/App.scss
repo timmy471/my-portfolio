@@ -4,6 +4,7 @@
 html {
   scroll-behavior: smooth;
   cursor: none;
+  
 }
 
 .cursor {
@@ -39,6 +40,11 @@ html {
 ::-ms-input-placeholder{
   color: #fff;
 }
+
+::selection{
+  background: rgba(2, 114, 142, .2);
+}
+
 .container {
   width: 80%;
   // max-width: 1170px;
