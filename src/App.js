@@ -3,21 +3,21 @@ import {
 	BrowserRouter as Router,
 } from "react-router-dom";
 
-import Header from "./components/Header";
+import Header from "./pages/Header";
 
 import "./App.scss";
-import Bio from "./components/Bio";
-import Project from "./components/Project";
-import Works from "./components/Works";
-import Testimonal from "./components/Testimonal";
-import Contact from "./components/Contact";
+import Bio from "./pages/Bio";
+import Project from "./pages/Project";
+import Works from "./pages/Works";
+import Testimonal from "./pages/Testimonal";
+import Contact from "./pages/Contact";
 import Footer from "./Footer";
 
 
 import SaintMosesImage from './img/saintmoses.jpg';
 import SumitRajImage from './img/sumitraj.jpg';
 import FortuneImage from './img/fortune.jpg';
-import Cursor from "./components/Cursor";
+import Cursor from "./pages/Cursor";
 
 
 function App() {
