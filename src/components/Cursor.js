@@ -1,7 +1,13 @@
 import React, { useEffect, useState } from "react";
 import classNames from "classnames";
 
+const isMobile = () => {
+	const ua = navigator.userAgent;
+	return /Android|Mobi/i.test(ua);
+};
+
 const Cursor = () => {
+	
 	const [position, setPosition] = useState({ x: 0, y: 0 });
 	const [hidden, setHidden] = useState(false);
 
@@ -52,6 +58,10 @@ const Cursor = () => {
 		'cursor--clicked': clicked,
 		"cursor--hidden": hidden,
 	});
+
+	// Prevent cursor from showing on mobile devices
+	if (typeof navigator !== 'undefined' && isMobile()) return null;
+
 	return (
 		<div
 			className={cursorClasses}
