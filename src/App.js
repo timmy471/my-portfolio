@@ -3,53 +3,34 @@ import {
 	BrowserRouter as Router,
 } from "react-router-dom";
 
-import Header from "./pages/Header";
+import Header from "./components/Header";
 
 import "./App.scss";
-import Bio from "./pages/Bio";
-import Project from "./pages/Project";
-import Works from "./pages/Works";
-import Testimonal from "./pages/Testimonal";
-import Contact from "./pages/Contact";
+import Bio from "./components/Bio";
+import Project from "./components/Project";
+import Works from "./components/Works";
+import Testimonal from "./components/Testimonal";
+import Contact from "./components/Contact";
 import Footer from "./Footer";
+import Cursor from "./components/Cursor";
 
-
-import SaintMosesImage from './img/saintmoses.jpg';
-import SumitRajImage from './img/sumitraj.jpg';
-import FortuneImage from './img/fortune.jpg';
-import Cursor from "./pages/Cursor";
+import { reviews } from './reviews';
 
 
 function App() {
 
-	const testimonial = [
-		{
-			person: SaintMosesImage,
-			name: 'Saintmoses Eromosele',
-			text: 'Chijioke is incredible! He was one of our best interns.',
-		},
-		{
-			person: SumitRajImage,
-			name: 'Sumit Raj',
-			text: 'Very understanding and easy to work with. Even with miles apart.'
-		},
-		{
-			person: FortuneImage,
-			name: 'Fortune Ikechi',
-			text: 'In our Developer Student Club, He is always available to help.'
-		}
-	];
-
+	
 
 	const [index, setIndex] = useState(0);
 
 	const slideRight = () => {
-		setIndex((index + 1) % testimonial.length);
+		setIndex((index + 1) % reviews.length);
+		
 	}
 
 	const slideLeft = () => {
 		const nextIndex = index - 1;
-		nextIndex < 0 ? setIndex(testimonial.length - 1) : setIndex(nextIndex)
+		nextIndex < 0 ? setIndex(reviews.length - 1) : setIndex(nextIndex)
 	}
 
 	const [menuToggle, setmenuToggle] = useState(false);
@@ -72,6 +53,10 @@ function App() {
 		}
 		
 	}
+
+	
+	
+
 	return (
 		<Router>
 			<div className="container">
@@ -80,7 +65,7 @@ function App() {
 				<Bio />
 				<Project />
 				<Works />
-				<Testimonal name={testimonial[index].name} imgPerson={testimonial[index].person} text={testimonial[index].text} slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex} />
+				<Testimonal reviews={reviews}  slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex} />
 				<Contact />
 				<Footer />
 			</div>

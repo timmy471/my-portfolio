@@ -1,20 +1,28 @@
 import React from 'react';
 import { KeyboardArrowLeft, KeyboardArrowRight } from '@material-ui/icons';
+import ReviewList from './ReviewList';
 
-const Testimonal = ({ imgPerson, text, name, index, slideLeft, slideRight, setIndex }) => {
 
+const Testimonal = ({ reviews, imgPerson, text, name, index, slideLeft, slideRight, setIndex }) => {
+
+  
   return (
     <section id="testimonal">
       <div className="testimonal-top">
         <span id="testimonal-top-circle-left"></span>
         <span id="testimonal-top-circle-right"></span>
       </div>
-      <p>
-        <img src={imgPerson} alt="" /> 
+
+      {/* {testimonial.filter(item => item.id === )} */}
+      {/* <Review testimonial={testimonial}/> */}
+
+      <ReviewList reviews={reviews} index={index}/>
+      {/* <p>
+        <img src={reviews[index].person} alt="" /> 
         <i className="quote fas fa-quote-right fa-3"></i>
-        {text}
-        <small>- {name}</small>
-      </p>
+        {reviews[index].text}
+        <small>- {reviews[index].name}</small>
+      </p> */}
           
       <div id="navigate-circle"></div>
       <div id="testimonal-bottom">

@@ -5,7 +5,7 @@ const Project = () => {
     return (
         <section className="projects" id='works'>
             <h1>
-                Completed Projects <span class="box"></span>
+                Completed Projects <span className="box"></span>
             </h1>
             <div className="project-pics">
                 <img src={require("../img/ad2.png")} alt="" />

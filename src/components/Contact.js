@@ -30,7 +30,7 @@ export default function Contact() {
 						name="contact"
 						method="POST"
 					>
-						<p class="hidden">
+						<p className="hidden">
 							<label>
 								Don’t fill this out if you're human: <input name="bot-field" />
 							</label>

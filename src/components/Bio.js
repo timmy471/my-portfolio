@@ -22,7 +22,7 @@ const Bio = () => {
                         project. Don't take my word for it, click the button below to
                         find out.
                     </p>
-                    <div class="social-links">
+                    <div className="social-links">
                         <a href="https://github.com/coolpythoncodes" target='blank'>
                             <GitHub/>
                         </a>
