@@ -1,27 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Review from '../components/Review';
 
 const ReviewList = ({ reviews, index }) => {
 
-	const review = reviews.filter(review => review.id === index)
+const [name, setName] = useState('');
+const [text, setText] = useState('');
 
-	const [image, setImage] = useState('')
-	const [name, setName] = useState('');
-	const [text, setText] = useState('');
+const review = reviews.filter(review => review.id === index)
 
-	useEffect(() => {
-		setTimeout(() => {
-			setImage(review[0].image);
-			setName(review[0].name)
-			setText(review[0].text)
-		}, 2);
-	}, );
-	
+const onLoadImage = ()=>{
+	setText(review[0].text);
+	setName(review[0].name);
+}
+
+
 	return (
 		<Review
 			name={name}
-			image={image}
+			image={review[0].image}
 			text={text}
+			onLoadImage={onLoadImage}
 		/>
 
 	);
