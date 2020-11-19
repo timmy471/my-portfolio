@@ -1,6 +1,7 @@
 import React from "react";
 
 const Review = ({ name,image,text }) => {
+
 	return (
 		<p>
 			<img src={image} alt="" />
