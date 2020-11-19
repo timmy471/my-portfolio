@@ -25,7 +25,6 @@ const Header = ({ handleClick, menuToggle, navToggle, hideSlideNav }) => {
 							activeClass='active'
 							smooth={true}
 							duration={100}
-							className='hire-btn'
 							onClick={hideSlideNav}
 						>
 							My Works

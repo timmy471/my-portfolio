@@ -19,13 +19,11 @@ import { reviews } from './reviews';
 
 function App() {
 
-	
-
 	const [index, setIndex] = useState(0);
 
 	const slideRight = () => {
 		setIndex((index + 1) % reviews.length);
-		
+
 	}
 
 	const slideLeft = () => {
@@ -41,21 +39,21 @@ function App() {
 		setnavToggle(!navToggle);
 	}
 
-	const mediaQuery = window.matchMedia('(max-width: 767px)');
-	let mobileView = mediaQuery.matches;
+	// const mediaQuery = window.matchMedia('(max-width: 767px)');
+	// let mobileView = mediaQuery.matches;
 
 	const hideSlideNav = () => {
-		if (mobileView) {
+		// if (mobileView) {
 			setTimeout(() => {
 				setmenuToggle(!menuToggle);
 				setnavToggle(!navToggle);
 			}, 1500);
-		}
-		
+		// }
+
 	}
 
-	
-	
+
+
 
 	return (
 		<Router>
@@ -65,7 +63,7 @@ function App() {
 				<Bio />
 				<Project />
 				<Works />
-				<Testimonal reviews={reviews}  slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex} />
+				<Testimonal reviews={reviews} slideLeft={slideLeft} slideRight={slideRight} index={index} setIndex={setIndex} />
 				<Contact />
 				<Footer />
 			</div>

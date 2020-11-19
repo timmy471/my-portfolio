@@ -33,6 +33,7 @@ const Bio = () => {
                             <Twitter/>
                         </a>
                     </div>
+                    {/* <a href="" className="hire-btn">Hire Me</a> */}
                     <Link
                         to='contact'
                         spy='true'
