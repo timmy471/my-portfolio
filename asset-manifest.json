@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3b1ba002.chunk.css",
+    "main.js": "/static/js/main.f4eef008.chunk.js",
+    "main.js.map": "/static/js/main.f4eef008.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c6e37e88.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c6e37e88.js.map",
+    "static/js/2.474d3b6b.chunk.js": "/static/js/2.474d3b6b.chunk.js",
+    "static/js/2.474d3b6b.chunk.js.map": "/static/js/2.474d3b6b.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.dc3dd8ddfea8ab71291141d9f46fb56d.js": "/precache-manifest.dc3dd8ddfea8ab71291141d9f46fb56d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.3b1ba002.chunk.css.map": "/static/css/main.3b1ba002.chunk.css.map",
+    "static/js/2.474d3b6b.chunk.js.LICENSE.txt": "/static/js/2.474d3b6b.chunk.js.LICENSE.txt",
+    "static/media/educollect.jpeg": "/static/media/educollect.3d412e64.jpeg",
+    "static/media/fortune.jpg": "/static/media/fortune.f2717cd5.jpg",
+    "static/media/garden-academy.jpeg": "/static/media/garden-academy.7d2fa62b.jpeg",
+    "static/media/img.png": "/static/media/img.4569d72b.png",
+    "static/media/staff-mgt.png": "/static/media/staff-mgt.af7c44cb.png",
+    "static/media/sumitraj.jpg": "/static/media/sumitraj.c308bed2.jpg",
+    "static/media/vgg-internship.jpeg": "/static/media/vgg-internship.0a601a4a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6e37e88.js",
+    "static/js/2.474d3b6b.chunk.js",
+    "static/css/main.3b1ba002.chunk.css",
+    "static/js/main.f4eef008.chunk.js"
+  ]
+}
