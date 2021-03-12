@@ -26,10 +26,10 @@ const Bio = () => {
                         <a href="https://github.com/timmy471" target='blank'>
                             <GitHub/>
                         </a>
-                        <a href="https://instagram.com/timi471" target='blank'>
+                        <a href="https://instagram.com/timmy471" target='blank'>
                             <Instagram/>
                         </a>
-                        <a href="#" target='blank'>
+                        <a href="#">
                             <Twitter/>
                         </a>
                     </div>
