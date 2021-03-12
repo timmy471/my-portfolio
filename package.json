@@ -17,7 +17,7 @@
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1"
   },
-  "homepage": "https://ayantunjitimilehin.com",
+  "homepage": "https://timmy471.github.io/my-portfolio/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
