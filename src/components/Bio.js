@@ -17,7 +17,7 @@ const Bio = () => {
                     </h1>
                     <h2>I'm a web developer</h2>
                     <p>
-                        Designing and telling peoples stories, through web development has been
+                        Creating and telling peoples stories, through web development has been
                         my thing for the past two years. I give my very all to each
                         project. Don't take my word for it, click the button below to
                         find out.
