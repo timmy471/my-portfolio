@@ -9,7 +9,7 @@ const Header = ({ handleClick, menuToggle, navToggle, hideSlideNav }) => {
 
 		<header>
 			<div className="logo">
-				<img src={require("../img/logo.png")} alt="" />
+				{/* <img src={require("../img/logo.png")} alt="" /> */}
 			</div>
 			<div className={`menu-btn ${menuToggle ? 'close' : null}` } onClick={handleClick}>
 				<div className="menu-btn-line"></div>
@@ -41,9 +41,6 @@ const Header = ({ handleClick, menuToggle, navToggle, hideSlideNav }) => {
 						>
 							Contact Me
 						</Link>
-					</li>
-					<li className="nav-link ">
-						<a href="http://coolpythoncodes.com/" target='blank' onClick={hideSlideNav}>My blog </a>
 					</li>
 				</ul>
 			</nav>

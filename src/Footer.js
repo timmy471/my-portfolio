@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            Design concept by Delight
+           @ Timmy {new Date().getFullYear()} 
         </footer>
     );
 }

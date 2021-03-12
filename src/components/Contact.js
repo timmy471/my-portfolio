@@ -13,22 +13,27 @@ export default function Contact() {
 			<div id="contact-details">
 				<div className="contact-container">
 					<div>
-						<MailOutline /> coolpythoncodes@gmail.com
+						<MailOutline /> ayantunjitimilehin@gmail.com
 					</div>
 					<div id="phone-contact">
-						<Phone /> +234 703 806 8811
+						<Phone /> +234 803 856 4373
 					</div>
 					<div>
-						<LocationOn /> Carlton Gate Estate, Chevron Office Drive, Lekki,
+						<LocationOn /> 34, Toyin Street, Ikeja,
 						Lagos
 					</div>
 				</div>
 			</div>
 			<div id="contact-message">
 				<div className="message-container">
-					<form
-						name="contact"
-						method="POST"
+					<form id="contact-form"
+						onSubmit={
+							e => {
+								e.preventDefault()
+								document.getElementById("contact-form").reset()
+								alert("Thank you for sending a message")
+							}
+						}
 					>
 						<p className="hidden">
 							<label>

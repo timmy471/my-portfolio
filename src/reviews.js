@@ -6,8 +6,8 @@ export const reviews = [
     {
         id:0,
         image: SaintMosesImage,
-        name: 'Saintmoses Eromosele',
-        text: 'Chijioke is incredible! He was one of our best interns.',
+        name: 'Ayoola Falola',
+        text: 'Timmy is incredible! He was our best intern.',
     },
     {
         id:1,

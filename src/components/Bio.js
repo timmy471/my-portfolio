@@ -8,28 +8,28 @@ const Bio = () => {
     return (
             <section className="bio">
                 <div className="bio-pic">
-                    <img src={require('../img/img.png')} alt='Rapture Chijoke Godson' />
+                    <img src={require('../img/img.png')} alt='Ayantunji TImilehin' />
                 </div>
 
                 <div className="bio-text">
                     <h1>
-                        <span>Hi,</span> I'm CHIJIOKE
+                        <span>Hi,</span> I'm Timmy
                     </h1>
                     <h2>I'm a web developer</h2>
                     <p>
-                        Designing and telling peoples stories, through web design has been
-                        my thing for the past one year. I give my very all to each
+                        Designing and telling peoples stories, through web development has been
+                        my thing for the past two years. I give my very all to each
                         project. Don't take my word for it, click the button below to
                         find out.
                     </p>
                     <div className="social-links">
-                        <a href="https://github.com/coolpythoncodes" target='blank'>
+                        <a href="https://github.com/timmy471" target='blank'>
                             <GitHub/>
                         </a>
-                        <a href="https://instagram.com/coolpythoncodes" target='blank'>
+                        <a href="https://instagram.com/timi471" target='blank'>
                             <Instagram/>
                         </a>
-                        <a href="https://twitter.com/coolpythoncodes" target='blank'>
+                        <a href="#" target='blank'>
                             <Twitter/>
                         </a>
                     </div>
