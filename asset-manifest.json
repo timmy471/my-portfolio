@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.8338eb7a.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.52e044bb.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.52e044bb.chunk.js.map",
+    "main.css": "/my-portfolio/static/css/main.023680fe.chunk.css",
+    "main.js": "/my-portfolio/static/js/main.0a131573.chunk.js",
+    "main.js.map": "/my-portfolio/static/js/main.0a131573.chunk.js.map",
     "runtime-main.js": "/my-portfolio/static/js/runtime-main.40a44604.js",
     "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.40a44604.js.map",
-    "static/js/2.474d3b6b.chunk.js": "/my-portfolio/static/js/2.474d3b6b.chunk.js",
-    "static/js/2.474d3b6b.chunk.js.map": "/my-portfolio/static/js/2.474d3b6b.chunk.js.map",
+    "static/js/2.601e758d.chunk.js": "/my-portfolio/static/js/2.601e758d.chunk.js",
+    "static/js/2.601e758d.chunk.js.map": "/my-portfolio/static/js/2.601e758d.chunk.js.map",
     "index.html": "/my-portfolio/index.html",
-    "precache-manifest.cf8f8705e83ee72420135b4859044f59.js": "/my-portfolio/precache-manifest.cf8f8705e83ee72420135b4859044f59.js",
+    "precache-manifest.4e49fa230fd3ccafa533c5321d17f80c.js": "/my-portfolio/precache-manifest.4e49fa230fd3ccafa533c5321d17f80c.js",
     "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/main.8338eb7a.chunk.css.map": "/my-portfolio/static/css/main.8338eb7a.chunk.css.map",
-    "static/js/2.474d3b6b.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.474d3b6b.chunk.js.LICENSE.txt",
+    "static/css/main.023680fe.chunk.css.map": "/my-portfolio/static/css/main.023680fe.chunk.css.map",
+    "static/js/2.601e758d.chunk.js.LICENSE.txt": "/my-portfolio/static/js/2.601e758d.chunk.js.LICENSE.txt",
     "static/media/educollect.jpeg": "/my-portfolio/static/media/educollect.3d412e64.jpeg",
     "static/media/fortune.jpg": "/my-portfolio/static/media/fortune.f2717cd5.jpg",
     "static/media/garden-academy.jpeg": "/my-portfolio/static/media/garden-academy.7d2fa62b.jpeg",
     "static/media/img.png": "/my-portfolio/static/media/img.4569d72b.png",
     "static/media/staff-mgt.png": "/my-portfolio/static/media/staff-mgt.af7c44cb.png",
     "static/media/sumitraj.jpg": "/my-portfolio/static/media/sumitraj.c308bed2.jpg",
-    "static/media/vgg-internship.jpeg": "/my-portfolio/static/media/vgg-internship.0a601a4a.jpeg"
+    "static/media/vgg_internship.png": "/my-portfolio/static/media/vgg_internship.5e3a0ad0.png"
   },
   "entrypoints": [
     "static/js/runtime-main.40a44604.js",
-    "static/js/2.474d3b6b.chunk.js",
-    "static/css/main.8338eb7a.chunk.css",
-    "static/js/main.52e044bb.chunk.js"
+    "static/js/2.601e758d.chunk.js",
+    "static/css/main.023680fe.chunk.css",
+    "static/js/main.0a131573.chunk.js"
   ]
 }
