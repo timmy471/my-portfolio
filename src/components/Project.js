@@ -31,7 +31,7 @@ const Project = () => {
             name: "Vgg Website",
             image: VGG,
             link: "https://vgg-internship-website.herokuapp.com",
-            details: "This is a website created with React and bootstrap. It was built to provide information about Venture Garden Group internship programs and allow students indicate interest in enrolling."
+            details: "This is a website created with React and bootstrap. It was built to provide information about Venture Garden Group internship programs."
         },
     ]
     return (
