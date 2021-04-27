@@ -1,7 +1,7 @@
 import React from 'react';
 import Educollect from "../img/educollect.jpeg";
 import GardenAcademy from "../img/garden-academy.jpeg";
-import StaffMgt from "../img/staff-mgt.png";
+import Edutech from "../img/edutech.png";
 import VGG from "../img/vgg_internship.png";
 
 
@@ -22,10 +22,10 @@ const Project = () => {
             details: "The Garden academy is an application that intends to help knowledge sharing in tech. allowing students, take courses and get certified. It was built using react and bootstrap."
         },
         {
-            name: "Staff Management",
-            image: StaffMgt,
-            link: "https://timmy-hr.herokuapp.com/index.html",
-            details: "The staff management app is a work in progress. It is intended to help managers and HRs effectively manage the productivity of their employees."
+            name: "Edutech",
+            image: Edutech,
+            link: "https://edutechng.com/",
+            details: "The Edutech website displays information about the programs managed by the company. This application was built with HTML, SASS and Bootsrap with webpack as the package bundler"
         },
         {
             name: "Vgg Website",
