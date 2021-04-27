@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-import { GitHub, Instagram, Twitter } from '@material-ui/icons';
+import { GitHub, Instagram, Twitter, LinkedIn } from '@material-ui/icons';
 
 
 const Bio = () => {
@@ -29,8 +29,8 @@ const Bio = () => {
                         <a href="https://instagram.com/timmy471" target='blank'>
                             <Instagram/>
                         </a>
-                        <a href="#">
-                            <Twitter/>
+                        <a href="https://www.linkedin.com/in/timilehin-micheal/" target="_blank">
+                            <LinkedIn />
                         </a>
                     </div>
                     {/* <a href="" className="hire-btn">Hire Me</a> */}
