@@ -25,7 +25,7 @@ const Project = () => {
             name: "Edutech",
             image: Edutech,
             link: "https://edutechng.com/",
-            details: "The Edutech website displays information about the programs managed by the company. This application was built with HTML, SASS and Bootsrap with webpack as the package bundler"
+            details: "The Edutech website displays information about the programs managed by the company. This application was built with HTML, SASS and Bootsrap with webpack as the package bundler."
         },
         {
             name: "Vgg Website",

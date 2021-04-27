@@ -23,13 +23,13 @@ const Bio = () => {
                         find out.
                     </p>
                     <div className="social-links">
-                        <a href="https://github.com/timmy471" target='blank'>
+                        <a href="https://github.com/timmy471" target="blank" rel="noopener noreferrer">
                             <GitHub/>
                         </a>
-                        <a href="https://instagram.com/timmy471" target='blank'>
+                        <a href="https://instagram.com/timmy471" target="blank" rel="noopener noreferrer">
                             <Instagram/>
                         </a>
-                        <a href="https://www.linkedin.com/in/timilehin-micheal/" target="_blank">
+                        <a href="https://www.linkedin.com/in/timilehin-micheal/" target="_blank" rel="noopener noreferrer">
                             <LinkedIn />
                         </a>
                     </div>
