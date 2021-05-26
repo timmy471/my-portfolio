@@ -7,7 +7,7 @@ export const reviews = [
         id:0,
         image: SaintMosesImage,
         name: 'Ayoola Falola',
-        text: 'Timmy is incredible! He was our best intern.',
+        text: 'Timmy is incredible! I have never worked with anyone like him.',
     },
     {
         id:1,
