@@ -1,7 +1,7 @@
 import React from 'react';
 import Educollect from "../img/educollect.jpeg";
 import GardenAcademy from "../img/garden-academy.jpeg";
-import Edutech from "../img/edutech.png";
+import vigilearn from "../img/vigilearn-image.png";
 import EdutechNew from "../img/edutech-new.png";
 
 
@@ -30,10 +30,10 @@ const Project = () => {
             
         },
         {
-            name: "Edutech",
-            image: Edutech,
-            link: "https://edutechng.com/",
-            details: "The Edutech website displays information about the programs managed by the company. This application was built with HTML, SASS and Bootsrap with webpack as the package bundler."
+            name: "Vigilearn",
+            image: vigilearn,
+            link: "https://vigilearn.com/",
+            details: "This is a work in progress, a light version of the intended website. Its a platform to expose partners to products offered by the organization"
         },
     ]
     return (
@@ -45,7 +45,7 @@ const Project = () => {
 
             {projects.map(({ image, link, details, name }, key) => (
                    <div className="project"  key={key} >
-                       <a href ={link} target="_ blank" style={{color:"#848484"}}
+                       <a href ={link} target="_blank" style={{color:"#848484"}}
                        ><img src={image} alt={name} />
                        <div className="project-details">
                            <p className="details-text">
