@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2011e4c527c1fd8667d97406fb93a701",
+    "revision": "575af5644ccec5b31a7e45b53de877d0",
     "url": "/my-portfolio/index.html"
   },
   {
-    "revision": "7179274472d7f21330f7",
+    "revision": "518fb9c507af14a2f7d3",
     "url": "/my-portfolio/static/css/main.45f8f078.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/my-portfolio/static/js/2.a0265eef.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7179274472d7f21330f7",
-    "url": "/my-portfolio/static/js/main.58c10c88.chunk.js"
+    "revision": "518fb9c507af14a2f7d3",
+    "url": "/my-portfolio/static/js/main.5249733a.chunk.js"
   },
   {
     "revision": "f6b99e60d6d34b538c80",
@@ -30,10 +30,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ab8e328c54614e137db296af66c91859",
     "url": "/my-portfolio/static/media/edutech-new.ab8e328c.png"
-  },
-  {
-    "revision": "42f291fff3584c02c9973ca344a696f1",
-    "url": "/my-portfolio/static/media/edutech.42f291ff.png"
   },
   {
     "revision": "f2717cd55bde0ac622e8ec733cc791cf",
@@ -50,5 +46,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c308bed2f1961a886c5ed33a2b7244e1",
     "url": "/my-portfolio/static/media/sumitraj.c308bed2.jpg"
+  },
+  {
+    "revision": "f64da82541189f4cd9d04abaa8d52b5b",
+    "url": "/my-portfolio/static/media/vigilearn-image.f64da825.png"
   }
 ]);
